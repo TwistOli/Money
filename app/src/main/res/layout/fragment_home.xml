@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/consum_color"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".ui.home.HomeFragment"
+    tools:visibility="visible">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="408dp"
+        android:layout_height="137dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/profit"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:background="@color/profit_color"
+            android:shadowColor="@color/profit_color"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Доходы" />
+
+        <Button
+            android:id="@+id/consum"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:background="@color/consum_color"
+            android:shadowColor="@color/consum_color"
+            android:shadowDy="0"
+            android:shadowRadius="0"
+            android:text="Расходы" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/plus"
+        android:layout_width="385dp"
+        android:layout_height="315dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="232dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/p_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/p_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tp_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/p_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tp_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/p_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tp_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/p_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/p_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/tp_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tp_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tl1"
+        android:layout_width="385dp"
+        android:layout_height="315dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="232dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Button"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/b_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tl2"
+        android:layout_width="352dp"
+        android:layout_height="301dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/b2_1"
+                android:layout_width="70dp"
+                android:layout_height="82dp"
+                android:layout_weight="2.0"
+                android:background="@android:drawable/ic_dialog_info"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/b2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b2_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t2_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b2_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/b2_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/t2_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/t2_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/text_balans"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/__1"
+        android:gravity="center"
+        android:text="Баланс 0 р."
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp"></LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
